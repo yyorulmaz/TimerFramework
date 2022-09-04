@@ -348,3 +348,15 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# CUSTOM
+.vs
+.vs/
+
+*.cache
+*DLL
+
+!/docs/*
+
+src/TimerFramework/bin
+src/TimerFramework/obj
