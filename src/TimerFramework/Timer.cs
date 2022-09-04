@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TimerFramework
 {
-    internal class Timer : ITimer
+    public class Timer : ITimer
     {
         private readonly IScheduler scheduler;
         public event Action<TimerModel> Receive;
