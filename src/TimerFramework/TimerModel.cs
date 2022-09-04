@@ -2,7 +2,7 @@
 
 namespace TimerFramework
 {
-    internal class TimerModel
+    public class TimerModel
     {
         public Guid Id { get; set; }
         public Guid InstanceId { get; set; }
