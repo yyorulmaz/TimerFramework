@@ -2,7 +2,7 @@
 
 namespace TimerFramework
 {
-    internal class TimerFactory
+    public class TimerFactory
     {
         public ITimer CreateTimer()
         {

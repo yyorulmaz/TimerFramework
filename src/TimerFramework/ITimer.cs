@@ -2,7 +2,7 @@
 
 namespace TimerFramework
 {
-    internal interface ITimer
+    public interface ITimer
     {
         Guid InstanceId { get; }
         event Action<TimerModel> Receive;
